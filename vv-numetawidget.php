@@ -2,7 +2,7 @@
 /*
 Plugin Name: Verdon's NU Meta Widget
 Description: Clone of the standard Meta widget with options specifically for Nipissing U.
-Version: 1.0.0
+Version: 1.0.1
 Author: Verdon Vaillancourt
 Author URI: http://verdon.ca/
 License: GPLv2 or later
@@ -63,8 +63,8 @@ function VVNUMetaWidget() {
 		'description' => __( 'Hide the individual log in/out, admin, feed and Nipissing links', 'VVNUMetaWidget' )
 	); 
 	
-	// extend widget
-	$this->WP_Widget( 'VVNUMetaWidget', 'Verdon\'s Nipissing University Meta Links', $widget_ops );
+	// extend WP_Widget
+	parent::__construct( 'VVNUMetaWidget', 'Verdon\'s Nipissing University Meta Links', $widget_ops );
 }
 
 
