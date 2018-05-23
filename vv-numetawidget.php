@@ -5,6 +5,7 @@ Description: Clone of the standard Meta widget with options specifically for Nip
 Version: 1.0.1
 Author: Verdon Vaillancourt
 Author URI: http://verdon.ca/
+Update URL: https://github.com/verdonv/vv-numetawidget/
 License: GPLv2 or later
 Text Domain: vv-numetawidget
 */
@@ -40,7 +41,7 @@ if ( !function_exists( 'add_action' ) ) {
 }
 
 /* setup a few constants */
-define( 'VVNUMW_VERSION', '1.0.0' );
+define( 'VVNUMW_VERSION', '1.0.1' );
 define( 'VVNUMW__MINIMUM_WP_VERSION', '4.0' );
 define( 'VVNUMW__PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'VVNUMW__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
