@@ -57,7 +57,7 @@ class VVNUMetaWidget extends WP_Widget { // start of class
 /**
  * CONSTRUCTOR
  */
-function VVNUMetaWidget() {	
+function __construct() {	
 	// set widget options
 	$widget_ops = array ( 
 		'classname' => 'VVNUMetaWidget',
